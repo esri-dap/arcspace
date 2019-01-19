@@ -1,0 +1,11 @@
+# Don't check auto-generated stuff into git
+dist
+build
+node_modules
+docs
+examples
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
