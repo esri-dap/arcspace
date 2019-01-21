@@ -12824,6 +12824,10 @@ textarea.form-control {
     bottom: 0%;
     opacity: 0.1; }
 
+@media (min-width: 500px) {
+  .index-page .page-header {
+    height: 60vh; } }
+
 .landing-page {
   overflow-x: hidden; }
   .landing-page .page-header::after {
@@ -13575,7 +13579,6 @@ hr {
             animation-duration: 9s; }
 
 .section-dept {
-  padding-top: 20vh;
   overflow: hidden; }
   .section-dept .square {
     background-size: cover; }
@@ -13670,7 +13673,6 @@ hr {
     position: relative; }
 
 .page-header {
-  min-height: 100vh;
   max-height: 999px;
   padding: 0;
   color: #ffffff;
