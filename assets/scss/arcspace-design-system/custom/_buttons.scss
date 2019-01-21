@@ -103,6 +103,17 @@
   }
 }
 
+.btn-explore {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 30px;
+}
+
 // Apply the mixin to the buttons
 // .btn-default { @include btn-styles($default-color, $default-states-color); }
 .btn-primary { @include btn-styles($primary, $primary-states);

@@ -110,7 +110,7 @@
     }
 
   &.card-coin {
-    border: 2px solid $default;
+    // border: 2px solid $default;
 
     .card-header {
       margin: -100px auto 20px;
@@ -149,11 +149,11 @@
   }
 }
 
-@include media-breakpoint-down(xs) {
-  .card.card-coin{
-    margin-top: 80px;
-  }
-}
+// @include media-breakpoint-down(xs) {
+//   .card.card-coin{
+//     margin-top: 80px;
+//   }
+// }
 
 
 .text-on-back{

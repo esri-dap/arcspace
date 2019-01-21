@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <title>
+        ArcSpace - Esri Indonesia
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+    <!-- Nucleo Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="./assets/css/arcspace-design-system.css" rel="stylesheet" />
+    <!-- CSS for page -->
+    <link href="./assets/page/page.css" rel="stylesheet" />
+    <!-- CSS for circular particle -->
+    <link href="./assets/particles/circular-particle.css" rel="stylesheet" />
+</head>
+
+<body id="bodyclick" class="index-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#" rel="tooltip" title="ArcSpace" data-placement="bottom">
+                    <!-- <span>BLK•</span> Design System -->
+                    <img src='./assets/img/arclogo.png' />
+                </a>
+                <button id="btn-nav-close" class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a>
+                                <b>Arc</b>Space
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close text-right">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation"
+                                aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="tim-icons icon-simple-remove"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="Esri Indonesia" data-placement="bottom" href="javascript:void(0)"
+                            onclick="scrollToSection('.sect-homepage')">
+                            <i class="fa fa-globe"></i>
+                            <p class="d-lg-none d-xl-none">Esri Indonesia Homepage</p>
+                        </a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="Esri Account" data-placement="bottom" href="javascript:void(0)"
+                            onclick="scrollToSection('.sect-account')">
+                            <i class="fa fa-user-circle"></i>
+                            <p class="d-lg-none d-xl-none">Esri Account</p>
+                        </a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="ArcGIS Portal" data-placement="bottom" href="javascript:void(0)"
+                            onclick="scrollToSection('.sect-portal')">
+                            <i class="fa fa-map"></i>
+                            <p class="d-lg-none d-xl-none">ArcGIS Portal</p>
+                        </a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="Blog" data-placement="bottom" href="javascript:void(0)"
+                            onclick="scrollToSection('.sect-blog')">
+                            <i class="fa fa-newspaper"></i>
+                            <p class="d-lg-none d-xl-none">Blog</p>
+                        </a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="fa fa-cogs d-lg-none d-xl-none"></i> Professional Services Department
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html"
+                                class="dropdown-item">
+                                <i class="tim-icons icon-paper"></i> Documentation
+                            </a>
+                            <a href="examples/register-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-bullet-list-67"></i>Register Page
+                            </a>
+                            <a href="examples/landing-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-image-02"></i>Landing Page
+                            </a>
+                            <a href="examples/profile-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-single-02"></i>Profile Page
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="fa fa-cogs d-lg-none d-xl-none"></i> Pre Sales Department
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html"
+                                class="dropdown-item">
+                                <i class="tim-icons icon-paper"></i> Documentation
+                            </a>
+                            <a href="examples/register-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-bullet-list-67"></i>Register Page
+                            </a>
+                            <a href="examples/landing-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-image-02"></i>Landing Page
+                            </a>
+                            <a href="examples/profile-page.html" class="dropdown-item">
+                                <i class="tim-icons icon-single-02"></i>Profile Page
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="Human Resource Information System" data-placement="bottom"
+                            href="javascript:void(0)" onclick="scrollToSection('.sect-hris')">
+                            <i class="fa fa-chalkboard-teacher"></i>
+                            <p class="d-lg-none d-xl-none">Human Resource Information System</p>
+                        </a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a class="nav-link" rel="tooltip" title="Asset Management" data-placement="bottom" href="javascript:void(0)"
+                            onclick="scrollToSection('.sect-asset')">
+                            <i class="fa fa-briefcase"></i>
+                            <p class="d-lg-none d-xl-none">Asset Management</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="wrapper">
+
+        <div id="particle-slider" class="page-header header-filter">
+            <div class="btn-explore col-sm-12">
+                <a href="examples/landing-page.html" class="btn btn-simple btn-round btn-info">Explore</a>
+            </div>
+            <div class='wrap'>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+                <div class='c'></div>
+            </div>
+            <div class="slides">
+                <div id="first-slide" class="slide" data-src="data:image/png;base64,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">
+                </div>
+            </div>
+            <canvas class="draw"></canvas>
+            <script src="./assets/particles/arcspace-particle.js" type="text/javascript"></script>
+            <!-- <div class="squares square1"></div>
+      <div class="squares square2"></div>
+      <div class="squares square3"></div>
+      <div class="squares square4"></div>
+      <div class="squares square5"></div>
+      <div class="squares square6"></div>
+      <div class="squares square7"></div> -->
+            <!-- <div class="container">
+        <div class="content-center brand">
+          <h1 class="h1-seo">ArcSpace</h1>
+          <h3>ArcSpace description lorem ipsum.</h3>
+        </div>
+      </div> -->
+        </div>
+
+        <div class="main">
+
+            <div id="left-shot" class="section section-signup sect-account">
+                <div class="container">
+                    <div class="squares square-1"></div>
+                    <div class="squares square-2"></div>
+                    <div class="squares square-3"></div>
+                    <div class="squares square-4"></div>
+                    <div class="row row-grid justify-content-between align-items-center">
+                        <div class="col-lg-6 mb-lg-auto">
+                            <a href="https://accounts.esri.com" target="_blank">
+                                <img src="assets/img/ss_account.png" alt="Image" class="img-raised">
+                            </a>
+                            <br />
+                            <br />
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="display-3 text-white">Esri Account
+                                <!-- <span class="text-white">Esri Account</span> -->
+                            </h3>
+                            <p class="text-white mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="btn-wrapper">
+                                <a href="https://accounts.esri.com" class="btn btn-success" target="_blank">Go to Esri
+                                    Account</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1 class="title"><i><b>Arc</b>Space</i></h1>
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="title">© 2019 - Esri Indonesia</h3>
+                        <!-- <p class="text-white mb-3">© 2019 - Esri Indonesia</p> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!-- Chart JS -->
+    <script src="./assets/js/plugins/chartjs.min.js"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!-- Page Methods -->
+    <script src="./assets/page/page.js"></script>
+    <!-- Control Center for parallax effects, scripts etc -->
+    <script src="./assets/js/arcspace-design-system.js" type="text/javascript"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js" type="text/javascript"></script> -->
+    <!-- <script src="./assets/particles/circular-particle.js" type="text/javascript"></script> -->
+    <script>
+        function scrollToSection(section) {
+            $("html, body").animate({
+                scrollTop: $(section).offset().top
+            }, 1000);
+            document.getElementById('btn-nav-close').click();
+            document.getElementById('bodyclick').click();
+        }
+    </script>
+</body>
+
+</html>
